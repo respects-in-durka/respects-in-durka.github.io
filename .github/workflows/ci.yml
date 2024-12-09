@@ -26,8 +26,6 @@ jobs:
           node-version: "20"
       - uses: pnpm/action-setup@v4
         name: Setup PNPM
-        with:
-            version: 9
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
